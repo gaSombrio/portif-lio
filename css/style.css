@@ -57,6 +57,9 @@ html{
 a{
     color: black; text-decoration: none;
 }
+main {
+	margin: 0 15vw 0 15vw;
+}
 /*=============================================================
                             TOPO
 =============================================================*/
@@ -76,11 +79,9 @@ header nav ul li.atual a{
 }
 
 /*=============================================================
-                            CONTEÚDO
+                     CONTEÚDO - WORKS
 =============================================================*/
-main.works {
-	margin: 0 15vw 0 15vw;
-}
+
 main.works h1 {
 	font-size: 3rem;
 }
@@ -110,7 +111,55 @@ main.works section p span{
 main.works p.text {
 	margin: 0 0 3vw 0;
 }
-
+/*=============================================================
+                     CONTEÚDO - INDEX
+=============================================================*/
+main section.banner {
+	display: flex;
+	margin: 3vw 0 1vw 0;
+}
+section.banner h1 {
+	font-weight: bold;
+	font-size: 2rem;
+}
+section.banner p {
+	margin: 3vw 10vw 3vw 0;
+}
+section.banner button {
+	background-color: #ff6464;
+	color: white;
+	padding: 16px 25px 16px 25px;
+	border: none;
+	font-size: 1.1rem;
+	font-weight: bold;
+	border-radius: 4px;
+	margin: 0 0 5vw 0;
+}
+section.rt-post {
+	background-color: #edf7fa;
+	padding: 1vw 2vw 1vw 2vw;
+}
+section.rt-post h2 {
+	font-size: 1.5rem;
+	margin: 2vw 0 4vw 0;
+}
+section.rt-post h3 {
+	font-weight: bold;
+	margin: 0 0.5vw 2vw 0;
+}
+section.rt-post ul {
+	display: flex;
+	margin: 0 0 4vw 0;
+}
+section.rt-post ul li {
+	background-color: white;
+	margin: 0.7vw;
+	padding: 1.7vw;
+	border-radius: 7px;
+}
+section.rt-post ul li p {
+	margin: 0 0 2vw 0;
+}
 /*=============================================================
 							FOOTER
 =============================================================*/
@@ -127,3 +176,4 @@ footer ul li {
 	margin: 0px 7px 40px 20px;
 	font-size: 2.3rem;
 }
+
